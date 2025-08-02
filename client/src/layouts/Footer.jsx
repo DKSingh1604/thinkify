@@ -23,8 +23,18 @@ const Footer = () => {
       <Box maxWidth="1280px" mx="auto">
         <Grid container>
           <Grid item>
-            <Box sx={{ display: "flex", gap: "10px", alignItems: "center" }}>
-              <img src="./images/favicon.ico" width="55" alt="Thinkify" />
+            <Box
+              sx={{
+                display: "flex",
+                gap: "10px",
+                alignItems: "center",
+              }}
+            >
+              <img
+                src="./images/favicon.ico"
+                width="55"
+                alt="Thinkify"
+              />
               <Typography
                 sx={{
                   fontFamily: "Platypi",
@@ -37,66 +47,209 @@ const Footer = () => {
               </Typography>
             </Box>
             <Typography variant="body1">
-              Connecting Ideas, Inspiring Perspectives
+              Connecting Ideas, Inspiring
+              Perspectives
             </Typography>
           </Grid>
         </Grid>
         <Grid container my={6}>
           <Grid item xs={2}>
-            <Typography variant="subtitle1" fontWeight="bold">
+            <Typography
+              variant="subtitle1"
+              fontWeight="bold"
+            >
               Solutions
             </Typography>
             <List>
-              <ListItemButton sx={{padding:"0","&:hover": { backgroundColor: "transparent" }}} component={Link} to="/case-studies">
-                <ListItemText primary="Facebook" sx={{margin:"0"}} />
+              <ListItemButton
+                sx={{
+                  padding: "0",
+                  "&:hover": {
+                    backgroundColor:
+                      "transparent",
+                  },
+                }}
+                component={Link}
+                to="/case-studies"
+              >
+                <ListItemText
+                  primary="Facebook"
+                  sx={{ margin: "0" }}
+                />
               </ListItemButton>
-              <ListItemButton sx={{padding:"0","&:hover": { backgroundColor: "transparent" }}} component={Link} to="/blogs">
-                <ListItemText primary="Linkedin" sx={{margin:"0"}} />
+              <ListItemButton
+                sx={{
+                  padding: "0",
+                  "&:hover": {
+                    backgroundColor:
+                      "transparent",
+                  },
+                }}
+                component={Link}
+                to="/blogs"
+              >
+                <ListItemText
+                  primary="Linkedin"
+                  sx={{ margin: "0" }}
+                />
               </ListItemButton>
-              <ListItemButton sx={{padding:"0","&:hover": { backgroundColor: "transparent" }}} component={Link} to="/blogs">
-                <ListItemText primary="You Tube" sx={{margin:"0"}} />
+              <ListItemButton
+                sx={{
+                  padding: "0",
+                  "&:hover": {
+                    backgroundColor:
+                      "transparent",
+                  },
+                }}
+                component={Link}
+                to="/blogs"
+              >
+                <ListItemText
+                  primary="You Tube"
+                  sx={{ margin: "0" }}
+                />
               </ListItemButton>
             </List>
           </Grid>
           <Grid item xs={2}>
-            <Typography variant="subtitle1" fontWeight="bold">
+            <Typography
+              variant="subtitle1"
+              fontWeight="bold"
+            >
               Products
             </Typography>
             <List>
-              <ListItemButton sx={{padding:"0","&:hover": { backgroundColor: "transparent" }}} component={Link} to="/community">
-                <ListItemText primary="Community" sx={{margin:"0"}} />
+              <ListItemButton
+                sx={{
+                  padding: "0",
+                  "&:hover": {
+                    backgroundColor:
+                      "transparent",
+                  },
+                }}
+                component={Link}
+                to="/community"
+              >
+                <ListItemText
+                  primary="Community"
+                  sx={{ margin: "0" }}
+                />
               </ListItemButton>
-              <ListItemButton sx={{padding:"0","&:hover": { backgroundColor: "transparent" }}} component={Link} to="/forums">
-                <ListItemText primary="Forums" sx={{margin:"0"}} />
+              <ListItemButton
+                sx={{
+                  padding: "0",
+                  "&:hover": {
+                    backgroundColor:
+                      "transparent",
+                  },
+                }}
+                component={Link}
+                to="/forums"
+              >
+                <ListItemText
+                  primary="Forums"
+                  sx={{ margin: "0" }}
+                />
               </ListItemButton>
             </List>
           </Grid>
           <Grid item xs={2}>
-            <Typography variant="subtitle1" fontWeight="bold">
+            <Typography
+              variant="subtitle1"
+              fontWeight="bold"
+            >
               Resources
             </Typography>
             <List>
-              <ListItemButton sx={{padding:"0","&:hover": { backgroundColor: "transparent" }}} component={Link} to="/case-studies">
-                <ListItemText primary="Case Studies" sx={{margin:"0"}} />
+              <ListItemButton
+                sx={{
+                  padding: "0",
+                  "&:hover": {
+                    backgroundColor:
+                      "transparent",
+                  },
+                }}
+                component={Link}
+                to="/case-studies"
+              >
+                <ListItemText
+                  primary="Case Studies"
+                  sx={{ margin: "0" }}
+                />
               </ListItemButton>
-              <ListItemButton sx={{padding:"0","&:hover": { backgroundColor: "transparent" }}} component={Link} to="/blogs">
-                <ListItemText primary="Blogs" sx={{margin:"0"}} />
+              <ListItemButton
+                sx={{
+                  padding: "0",
+                  "&:hover": {
+                    backgroundColor:
+                      "transparent",
+                  },
+                }}
+                component={Link}
+                to="/blogs"
+              >
+                <ListItemText
+                  primary="Blogs"
+                  sx={{ margin: "0" }}
+                />
               </ListItemButton>
             </List>
           </Grid>
           <Grid item xs={2}>
-            <Typography variant="subtitle1" fontWeight="bold">
+            <Typography
+              variant="subtitle1"
+              fontWeight="bold"
+            >
               Company
             </Typography>
             <List>
-              <ListItemButton sx={{padding:"0","&:hover": { backgroundColor: "transparent" }}} component={Link} to="/about">
-                <ListItemText primary="About Us" sx={{margin:"0"}} />
+              <ListItemButton
+                sx={{
+                  padding: "0",
+                  "&:hover": {
+                    backgroundColor:
+                      "transparent",
+                  },
+                }}
+                component={Link}
+                to="/about"
+              >
+                <ListItemText
+                  primary="About Us"
+                  sx={{ margin: "0" }}
+                />
               </ListItemButton>
-              <ListItemButton sx={{padding:"0","&:hover": { backgroundColor: "transparent" }}} component={Link} to="/career">
-                <ListItemText primary="Careers" sx={{margin:"0"}} />
+              <ListItemButton
+                sx={{
+                  padding: "0",
+                  "&:hover": {
+                    backgroundColor:
+                      "transparent",
+                  },
+                }}
+                component={Link}
+                to="/career"
+              >
+                <ListItemText
+                  primary="Careers"
+                  sx={{ margin: "0" }}
+                />
               </ListItemButton>
-              <ListItemButton sx={{padding:"0","&:hover": { backgroundColor: "transparent" }}} component={Link} to="/contact">
-                <ListItemText primary="Contact Us" sx={{margin:"0"}} />
+              <ListItemButton
+                sx={{
+                  padding: "0",
+                  "&:hover": {
+                    backgroundColor:
+                      "transparent",
+                  },
+                }}
+                component={Link}
+                to="/contact"
+              >
+                <ListItemText
+                  primary="Contact Us"
+                  sx={{ margin: "0" }}
+                />
               </ListItemButton>
             </List>
           </Grid>
@@ -112,23 +265,38 @@ const Footer = () => {
                 color: "#1b2e35",
               }}
             >
-              <Typography>1-800-600-0464</Typography>
-              <Typography>support@thinkify.com</Typography>
-              <Typography>900-140 10th Avenue SE</Typography>
-              <Typography>Calgary, AB TG 0R1</Typography>
+              <Typography>
+                1-800-600-0464
+              </Typography>
+              <Typography>
+                support@thinkify.com
+              </Typography>
+              <Typography>
+                Chennai, Tamil Nadu
+              </Typography>
+              <Typography>India</Typography>
             </Box>
           </Grid>
         </Grid>
-        <Divider style={{ marginBottom: "1rem" }} />
-        <Box display="flex" justifyContent="space-between" alignItems="center">
+        <Divider
+          style={{ marginBottom: "1rem" }}
+        />
+        <Box
+          display="flex"
+          justifyContent="space-between"
+          alignItems="center"
+        >
           <Typography variant="body2">
-            Copyright {new Date().getFullYear()} Thikify. All rights reserved
+            Copyright {new Date().getFullYear()}{" "}
+            Thikify. All rights reserved
           </Typography>
           <Box>
             <Button
               sx={{
                 color: "#59e3a7",
-                "&:hover": { backgroundColor: "transparent" },
+                "&:hover": {
+                  backgroundColor: "transparent",
+                },
               }}
             >
               Privacy Policy
@@ -136,7 +304,9 @@ const Footer = () => {
             <Button
               sx={{
                 color: "#59e3a7",
-                "&:hover": { backgroundColor: "transparent" },
+                "&:hover": {
+                  backgroundColor: "transparent",
+                },
               }}
             >
               Terms of Services

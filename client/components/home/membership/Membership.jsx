@@ -1,19 +1,38 @@
-import { Box, Button, Typography } from "@mui/material";
+import {
+  Box,
+  Button,
+  Typography,
+} from "@mui/material";
 import { Link } from "react-router-dom";
 const Membership = () => {
   const pacage = [
     {
-      icon: <img src="./icons/rocket.svg" style={{ width: "60px" }} />,
+      icon: (
+        <img
+          src="./icons/rocket.svg"
+          style={{ width: "60px" }}
+        />
+      ),
       title: "Starter Pack",
       text: "Affordable services to kickstart your journey.",
     },
     {
-      icon: <img src="./icons/vip.svg" style={{ width: "60px" }} />,
+      icon: (
+        <img
+          src="./icons/vip.svg"
+          style={{ width: "60px" }}
+        />
+      ),
       title: "Pro Bundle",
       text: "Advanced features for growing your business.",
     },
     {
-      icon: <img src="./icons/diamond.svg" style={{ width: "60px" }} />,
+      icon: (
+        <img
+          src="./icons/diamond.svg"
+          style={{ width: "60px" }}
+        />
+      ),
       title: "Elite Suite",
       text: "Premium solutions for ultimate success and scale.",
     },
@@ -23,7 +42,10 @@ const Membership = () => {
       <Box
         sx={{
           display: "flex",
-          flexDirection: { xs: "column", md: "row" },
+          flexDirection: {
+            xs: "column",
+            md: "row",
+          },
           gap: 2,
         }}
       >
@@ -38,15 +60,26 @@ const Membership = () => {
           >
             How we work
           </Typography>
-          <Typography variant="h4" component="h2" color="#797979">
-            Get some premium services at a fraction of the cost.
+          <Typography
+            variant="h4"
+            component="h2"
+            color="#797979"
+          >
+            Get some premium services at a
+            fraction of the cost.
           </Typography>
         </Box>
         <Box flex="1">
-          <Typography variant="body1" color="#797979">
-            Unlock premium services tailored to your needs at unbeatable prices!
-            Whether you{"'"}re just starting out or looking to scale, our
-            packages offer the perfect blend of affordability and value.
+          <Typography
+            variant="body1"
+            color="#797979"
+          >
+            Unlock premium services tailored to
+            your needs at unbeatable prices!
+            Whether you{"'"}re just starting out
+            or looking to scale, our packages
+            offer the perfect blend of
+            affordability and value.
           </Typography>
           <Link to="/subscription">
             <Button
@@ -57,7 +90,9 @@ const Membership = () => {
                 color: "white",
                 fontWeight: "bold",
                 padding: "8px 16px",
-                "&:hover": { backgroundColor: "#45b584" },
+                "&:hover": {
+                  backgroundColor: "#45b584",
+                },
               }}
             >
               See Pricing
@@ -70,14 +105,29 @@ const Membership = () => {
         sx={{
           display: "flex",
           justifyContent: "space-between",
-          flexDirection: { xs: "column", md: "row" },
+          flexDirection: {
+            xs: "column",
+            md: "row",
+          },
           gap: 2,
           mt: 8,
         }}
       >
         {pacage.map((item, index) => (
-          <Box key={index} sx={{ textAlign: "center" }}>
-            {item.icon}
+          <Box
+            key={index}
+            sx={{
+              textAlign: "center",
+              backgroundColor: "#f0f0f0",
+              padding: "20px",
+              borderRadius: "10px",
+              boxShadow:
+                "0 2px 4px rgba(0, 0, 0, 0.1)",
+            }}
+          >
+            <Box sx={{ marginBottom: "10px" }}>
+              {item.icon}
+            </Box>
             <Typography
               variant="h5"
               component="h3"
@@ -88,7 +138,10 @@ const Membership = () => {
             >
               {item.title}
             </Typography>
-            <Typography variant="body2" color="#797979">
+            <Typography
+              variant="body2"
+              color="#797979"
+            >
               {item.text}
             </Typography>
           </Box>

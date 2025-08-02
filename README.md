@@ -13,7 +13,7 @@ Thinkify is a full-stack web application that enables users to connect, share po
 
 ## 👤 Author
 
-**Your Name Here**  
+**Dev Karan Singh**  
 Email: dev1604karan@gmail.com 
 GitHub: [DKSingh1604](https://github.com/DKSingh1604)
 
