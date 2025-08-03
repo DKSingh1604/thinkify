@@ -16,10 +16,7 @@ const DATABASE_NAME = process.env.DATABASE_NAME;
 
 app.use(
   cors({
-    origin: [
-      "http://localhost:5173",
-      "https://thinkify-backend-gfpe.onrender.com/",
-    ],
+    origin: true,
     credentials: true,
   })
 );
